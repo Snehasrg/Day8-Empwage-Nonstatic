@@ -6,16 +6,19 @@ namespace NonstaticLinecomparison
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Line Comparison Problem by Non Static Method");
+            //Console.WriteLine("Welcome to Line Comparison Problem by Non Static Method");
          
            // Length obj= new Length();
             //obj.calculatelength();
 
-           // CheckEquality obj= new CheckEquality();
-            //obj.checkequallines();
+          // CheckEquality obj= new CheckEquality();
+           //obj.checkequallines();
 
-            LineComparison obj=new LineComparison();
-            obj.checkcomparison();
+          // LineComparison obj=new LineComparison();
+           // obj.checkcomparison();
+
+            Compare obj = new Compare();
+            obj.line_compare();
         }
 
     }
